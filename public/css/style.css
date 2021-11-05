@@ -20,10 +20,25 @@ body{
     text-align: center;
 }
 
+.form-title{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
 #bonos {
     display: flex;
     flex-direction: row;
    /*font-family: Helvetica;*/
     margin: 50px 10px 0px 16px;
+}
+
+.form-box input[type="text"],
+.form-box input[type="text"],
+.form-box button[type="submit"]{
+    border: 0;
+    display: block;
+    margin: 20px auto;
 }
 
