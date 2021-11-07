@@ -36,9 +36,13 @@ body{
 
 .form-box input[type="text"],
 .form-box input[type="text"],
-.form-box button[type="submit"]{
+.form-box button[type="matricular"]{
     border: 0;
     display: block;
     margin: 20px auto;
+    padding: 14px 10;
+    text-align: left;
+    border: 2px solid;
+    width: 200px;
 }
 
