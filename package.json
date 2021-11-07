@@ -2,12 +2,12 @@
   "name": "quiz2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
- "start": "webpack --watch --analyze", 
- "visualize-bundle":"webpack --analyze"
+    "start": "webpack --watch --progress",
+    "visualize-main": "webpack --analyze"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "webpack": "^5.62.1",
+    "webpack-main-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.1"
   }
 }
