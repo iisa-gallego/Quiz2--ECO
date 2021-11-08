@@ -9,29 +9,30 @@
 </head>
 <body>
 
-    <form action="class= form-box"></form>
-    <h1 class="form-title">Profesores INC</h1>
-    <input type="text" placeholder="Estudiante">
-    <input type="text" placeholder="codigo">
-    <input type="text" placeholder="curso">
-
-    <button type="submit">
-        Matricular
-    </button>
+    <div id="googleform">
+        <form action="class= form-box"></form>
+        <h1 class="form-title">Profesores INC</h1>
+        <input id="estudiante" type="text" placeholder="Estudiante">
+        <input id="codigo" type="text" placeholder="codigo">
+        <input id="curso" type="text" placeholder="curso">
     
+        <button id="matricular" type="submit">
+            Matricular
+        </button> 
+    </div>
 
     <div id= "bonos">
         <div class = puntos id = "Sin Bono">
             <h2>Sin bono</h2>
-            <p>Vacio</p>
+            <div id="bono__1">Vacio</div>
         </div>
         <div class = "puntos" id = "Bono Plata" >
             <h2>Bono plata +0,3</h2>
-            <p>Vacio</p>
+            <div id="bono__2">Vacio</div>
         </div>
         <div class = "puntos" id="Bono Oro">
             <h2>Bono oro +0,5</h2>
-            <p>Vacio</p>
+            <div id="bono__3">Vacio</div>
         </div>
     </div>
      
@@ -43,27 +44,3 @@
 </html>
 
 
-<!--<script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.3.0/firebase.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.3.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-  
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyA3bImKywF3B_GWH2MqKcS3fZVN-6qleWc",
-      authDomain: "quiz2-eco.firebaseapp.com",
-      databaseURL: "https://quiz2-eco-default-rtdb.firebaseio.com",
-      projectId: "quiz2-eco",
-      storageBucket: "quiz2-eco.appspot.com",
-      messagingSenderId: "180138756947",
-      appId: "1:180138756947:web:a6880d9920e238f47b6fa6",
-      measurementId: "G-47PYX6BBD8"
-    };
-  
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>-->
